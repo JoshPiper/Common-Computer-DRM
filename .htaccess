@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# Allow any files or directories that exist to be displayed directly
+# RewriteCond %{REQUEST_URI} !index.php$ Not necessary
+
+# Only allow to see the minified files !
+RewriteCond %{REQUEST_URI} !(\.gif|\.jpg|\.png|\.min.js|\.min.css)$ [NC]
+RewriteRule ^(.*)$ index.php?$1 [QSA,L]
+
+# Disable dir list
+Options All -Indexes

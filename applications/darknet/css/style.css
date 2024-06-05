@@ -1,0 +1,132 @@
+body{
+    color: rgb(211, 211, 211);
+}
+
+.text-muted{
+    color: rgb(151, 151, 151) !important;
+}
+
+.title{
+    font-size: 1.3em;
+}
+
+.content{
+    padding: 0px;
+    width: 100%;
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content h4{
+    margin-top: 5px;
+
+}
+
+.content img{
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.textcontent{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+strong.textcontent{
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+}
+
+.modal{
+    overflow: unset !important;
+}
+
+.darkModal{
+    background-color: #282828 !important;
+}
+
+.darkModal label{
+    display: inline-block;
+    min-width: 20%;
+}
+
+.darkModal h6{
+    font-size: 1.2em;
+}
+
+.loader {
+    background: url("//feeps.ovh/images/ajax-loader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.interactBtn{
+    width: 2em;
+    height: 2em;
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+.editContainer button{
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 999px;
+}
+
+.editContainer{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card:hover .editContainer{
+    display: block;
+}
+
+.content:hover .editContainer{
+    display: block;
+}
+
+.card h4{
+    margin-left: 8px;
+    margin-top: 5px;
+    color: white;
+}
+
+.card p + button{
+    margin-left: 8px;
+    color: white;
+}
+
+.card p{
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#articlesContainer{
+    display: none;
+}
+
+.locSel{
+    width: 100%;
+    color: black;
+}
+
+#buyModal{
+    color: rgb(167, 167, 167);
+}
+
+.select-items{
+    position: inherit !important;
+}
